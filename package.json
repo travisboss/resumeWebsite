@@ -13,10 +13,10 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "yarn start",
-    "build": "yarn build",
-    "test": "yarn test",
-    "eject": "yarn eject"
+    "build": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"
