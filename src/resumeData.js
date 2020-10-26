@@ -1,163 +1,114 @@
 export const resumeData = {
   "main": {
-    "name": "Your Name",
-    "occupation": "Your Occupation",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "name": "Travis Boss",
+    "occupation": "Front-End Developer",
+    "image": "travisboss.jpg",
+    "bio": "Am a hard worker who enjoys working in new technologies and learning new languages, feel most comfortable in Vue.Js, but stepping up my React game on my own personal time.",
+    "contactmessage": "Please email me if you'd like to chat.",
+    "email": "travisboss@gmail.com",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "3917 Shamrock Drive NE",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55421"
     },
-    "website": "http://www.example.com",
-    "resumedownload": "http://example.com",
+    "website": "https://travisboss.github.io/travisboss/",
+    "resumedownload": "https://docs.google.com/document/d/1tMy5zpBuGkJif2r6h_ApnnAJyQ2LMdYNPwxs26E4TCw/edit?usp=sharing",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/example",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "google-plus",
-        "url": "http://googleplus.com/example",
-        "className": "fa fa-google-plus"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/example/",
+        "url": "https://www.linkedin.com/in/travisboss/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/example",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/example",
+        "url": "https://github.com/travisboss",
         "className": "fa fa-github"
-      },
-      {
-        "name": "skype",
-        "url": "http://skype.com",
-        "className": "fa fa-skype"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Minneapolis Community and Techincal College",
+        "degree": "Web Design and Interactive Media",
+        "graduated": "December 2017"
       },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "MOBE(Contract, Freelance)",
+        "title": "Front-End Developer",
+        "years": "April 2020 - Present",
+        "description": "Design mobile first web pages using HTML, CSS, PHP and Twig. Expand features, refine code, and improve processes, providing smoother operations and enhancing user engagement."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Wellbeats(Contract)",
+        "title": "UI Engineer",
+        "years": "May 2020 - October 2020",
+        "description": "Responsible for development of user interface of wellbeats application portal. Perform work in line with product development responsibilities software engineering processes that have been agreed upon in the department. Suggest and implement improvements to development processes. Diligently create quality work in a fast paced, team-based, highly iterative environment."
+      },
+      {
+        "company": "Anthem, Inc(contract)",
+        "title": "Front End Developer",
+        "years": "July 2019 - April 2020",
+        "description": "Work as part of an agile development team with UX, node developers, and product team members. Work with product management and UX to deliver working prototypes for upcoming features. Collaborate with product management and development team members on technical design to come up with compelling solutions to problems."
+      },
+      {
+        "company": "Gradient Financial Group",
+        "title": "Web Designer",
+        "years": "June 2017 - July 2019",
+        "description": "Estimate design and development activities. Understand principles of dynamic web development using WordPress, PHP, JavaScript, HTML, CSS. Rapid prototyping of design concepts to turn them into fully working web applications."
       }
     ],
     "skills": [
       {
-        "name": "Git",
+        "name": "Accessibility",
+        "level": "90%"
+      },
+      {
+        "name": "AngularJS",
         "level": "60%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
+        "name": "Angular",
+        "level": "80%"
       },
       {
         "name":"CSS",
         "level":"90%"
       },
       {
-        "name": "HTML5",
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "HTML",
         "level": "80%"
       },
       {
-        "name": "VueJs",
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "Laravel",
+        "level": "70%"
+      },
+      {
+        "name": "PHP",
+        "level": "70%"
+      },
+      {
+        "name": "React",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
+        "name": "TypeScript",
+        "level": "75%"
+      },
+      {
+        "name": "VueJs",
         "level": "80%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.example.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.example.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.example.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "You must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
