@@ -2,6 +2,7 @@
   "name": "document",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://travisboss.github.io/resumeWebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.0",
     "@testing-library/react": "^9.3.0",
@@ -13,9 +14,10 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+  "predeploy": "yarn build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
