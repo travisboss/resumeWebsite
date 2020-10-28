@@ -36,7 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Install dependencies and Build Applications
+      - name: Install Dependencies and Build Applications
         run: |
           yarn install
           yarn build
@@ -52,7 +52,6 @@ jobs:
           git config --global user.name $user_name
           git config --global user.email $user_email
           git remote set-url origin https://${github_token}@github.com/${repository}
-          s0/git-publish-subdir-action@main
           yarn deploy
         env:
           user_name: 'github-actions[bot]'
