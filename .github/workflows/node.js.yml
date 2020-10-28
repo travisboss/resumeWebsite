@@ -48,8 +48,7 @@ jobs:
       - name: Build
         run: yarn build
 
-        uses: s0/git-publish-subdir-action@main
-
+      - uses: s0/git-publish-subdir-action@main
 
       - name: Deploy
         run: |
