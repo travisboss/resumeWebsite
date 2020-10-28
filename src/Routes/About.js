@@ -33,7 +33,7 @@ const About = () => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button"><i className="fa fa-eye"></i>View Resume</a>
+                <a href={resumeDownload} target="_blank" rel="noopener noreferrer" className="button"><i className="fa fa-eye"></i>View Resume</a>
               </p>
             </div>
           </div>
