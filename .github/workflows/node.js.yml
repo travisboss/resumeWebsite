@@ -50,6 +50,7 @@ jobs:
       run: yarn build
 
     - name: Deploy
+      uses: s0/git-publish-subdir-action@main
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
