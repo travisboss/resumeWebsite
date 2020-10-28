@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/resumeWebsite/static/css/main.d6269b94.chunk.css",
-    "main.js": "/resumeWebsite/static/js/main.7906a546.chunk.js",
-    "main.js.map": "/resumeWebsite/static/js/main.7906a546.chunk.js.map",
+    "main.js": "/resumeWebsite/static/js/main.a67db1e8.chunk.js",
+    "main.js.map": "/resumeWebsite/static/js/main.a67db1e8.chunk.js.map",
     "runtime-main.js": "/resumeWebsite/static/js/runtime-main.0fdcf156.js",
     "runtime-main.js.map": "/resumeWebsite/static/js/runtime-main.0fdcf156.js.map",
-    "static/js/2.ce6c63ab.chunk.js": "/resumeWebsite/static/js/2.ce6c63ab.chunk.js",
-    "static/js/2.ce6c63ab.chunk.js.map": "/resumeWebsite/static/js/2.ce6c63ab.chunk.js.map",
+    "static/js/2.fb42faab.chunk.js": "/resumeWebsite/static/js/2.fb42faab.chunk.js",
+    "static/js/2.fb42faab.chunk.js.map": "/resumeWebsite/static/js/2.fb42faab.chunk.js.map",
     "index.html": "/resumeWebsite/index.html",
-    "precache-manifest.448d839cfa67e2fc8b36ab674de28cdd.js": "/resumeWebsite/precache-manifest.448d839cfa67e2fc8b36ab674de28cdd.js",
+    "precache-manifest.9b6d1ce7c80ef21214c1823e7ffb44cc.js": "/resumeWebsite/precache-manifest.9b6d1ce7c80ef21214c1823e7ffb44cc.js",
     "service-worker.js": "/resumeWebsite/service-worker.js",
     "static/css/main.d6269b94.chunk.css.gz": "/resumeWebsite/static/css/main.d6269b94.chunk.css.gz",
     "static/css/main.d6269b94.chunk.css.map": "/resumeWebsite/static/css/main.d6269b94.chunk.css.map",
-    "static/js/2.ce6c63ab.chunk.js.LICENSE.txt": "/resumeWebsite/static/js/2.ce6c63ab.chunk.js.LICENSE.txt",
-    "static/js/2.ce6c63ab.chunk.js.gz": "/resumeWebsite/static/js/2.ce6c63ab.chunk.js.gz",
-    "static/js/main.7906a546.chunk.js.gz": "/resumeWebsite/static/js/main.7906a546.chunk.js.gz",
+    "static/js/2.fb42faab.chunk.js.LICENSE.txt": "/resumeWebsite/static/js/2.fb42faab.chunk.js.LICENSE.txt",
+    "static/js/2.fb42faab.chunk.js.gz": "/resumeWebsite/static/js/2.fb42faab.chunk.js.gz",
+    "static/js/main.a67db1e8.chunk.js.gz": "/resumeWebsite/static/js/main.a67db1e8.chunk.js.gz",
     "static/js/runtime-main.0fdcf156.js.gz": "/resumeWebsite/static/js/runtime-main.0fdcf156.js.gz",
     "static/media/App.scss": "/resumeWebsite/static/media/testimonials-bg.7829a02a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0fdcf156.js",
-    "static/js/2.ce6c63ab.chunk.js",
+    "static/js/2.fb42faab.chunk.js",
     "static/css/main.d6269b94.chunk.css",
-    "static/js/main.7906a546.chunk.js"
+    "static/js/main.a67db1e8.chunk.js"
   ]
 }
