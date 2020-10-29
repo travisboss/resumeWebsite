@@ -3,10 +3,10 @@ import { useSelector } from 'react-redux'
 
 const Header = () => {
   const data = useSelector(state => state.resumeData.data);
-  var name = (data.main && data.main.name) || '';
-  var occupation = (data.main && data.main.occupation) || '';
-  var description = (data.main && data.main.description) || '';
-  var address = (data.main && data.main.address) || {city: ''};
+  const name = (data.main && data.main.name) || '';
+  const occupation = (data.main && data.main.occupation) || '';
+  const description = (data.main && data.main.description) || '';
+  const address = (data.main && data.main.address) || {city: ''};
 
   const renderNetworks = () => {
     if (data.main && data.main.social) {

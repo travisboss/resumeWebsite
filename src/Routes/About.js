@@ -4,21 +4,19 @@ import { useSelector } from 'react-redux'
 const About = () => {
   const data = useSelector(state => state.resumeData.data);
 
-  var name = (data.main && data.main.name) || '';
-  var profilepic= (data.main && `./Assets/images/${data.main.image}`) || '';
-  var bio = (data.main && data.main.bio) || '';
-  var address = (data.main && data.main.address) || {};
-  var email = (data.main && data.main.email) || '';
-  var resumeDownload = (data.main && data.main.resumedownload) || '';
+  const name = (data.main && data.main.name) || '';
+  const bio = (data.main && data.main.bio) || '';
+  const address = (data.main && data.main.address) || {};
+  const email = (data.main && data.main.email) || '';
+  const resumeDownload = (data.main && data.main.resumedownload) || '';
 
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
-          <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
+        <div className="three columns header-col">
+          <h2><span>About Me</span></h2>
         </div>
         <div className="nine columns main-col">
-          <h2>About Me</h2>
           <p>{bio}</p>
           <div className="row">
             <div className="columns contact-details">

@@ -2,9 +2,7 @@ export const resumeData = {
   "main": {
     "name": "Travis Boss",
     "occupation": "Front-End Developer",
-    "image": "travisboss.jpg",
-    "bio": "Am a hard worker who enjoys working in new technologies and learning new languages, feel most comfortable in Vue.Js, but stepping up my React game on my own personal time.",
-    "contactmessage": "Please email me if you'd like to chat.",
+    "bio": "Front end developer with 4+ years of experience designing and building responsive web design in the health care industry. Proficient with CSS and JS Frameworks, with extensive knowledge of UI. Notable achievements include boosting the conversion rate of an existing website by 50% with improved code and design.",
     "email": "travisboss@gmail.com",
     "address": {
       "street": "3917 Shamrock Drive NE",
