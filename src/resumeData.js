@@ -47,7 +47,7 @@ export const resumeData = {
         "description": "Responsible for development of user interface of wellbeats application portal. Perform work in line with product development responsibilities software engineering processes that have been agreed upon in the department. Suggest and implement improvements to development processes. Diligently create quality work in a fast paced, team-based, highly iterative environment."
       },
       {
-        "company": "Anthem, Inc(contract)",
+        "company": "Anthem, Inc(Contract)",
         "title": "Front End Developer",
         "years": "July 2019 - April 2020",
         "description": "Work as part of an agile development team with UX, node developers, and product team members. Work with product management and UX to deliver working prototypes for upcoming features. Collaborate with product management and development team members on technical design to come up with compelling solutions to problems."
