@@ -77,12 +77,16 @@ export const resumeData = {
         "level":"90%"
       },
       {
+        "name": "Gatsby",
+        "level": "75%"
+      },
+      {
         "name": "Git",
         "level": "90%"
       },
       {
         "name": "HTML",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "JavaScript",
@@ -98,7 +102,7 @@ export const resumeData = {
       },
       {
         "name": "React",
-        "level": "50%"
+        "level": "60%"
       },
       {
         "name": "TypeScript",
@@ -106,7 +110,7 @@ export const resumeData = {
       },
       {
         "name": "VueJs",
-        "level": "80%"
+        "level": "85%"
       }
     ]
   }
