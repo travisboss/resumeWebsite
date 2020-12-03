@@ -5,7 +5,7 @@ export default class MyForm extends React.Component {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -13,35 +13,63 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <section id="contact">
-      <div className="row">
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/f/xoqpwqyk"
-        method="POST"
-      >
+        <div className="row">
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/f/xoqpwqyk"
+            method="POST"
+          >
             <fieldset>
               <div>
-                <label htmlFor="name">Name <span className="required">*</span></label>
-                <input type="text" size="35" id="name" name="contactName" required/>
+                <label htmlFor="name">
+                  Name <span className="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  size="35"
+                  id="name"
+                  name="contactName"
+                  required
+                />
               </div>
               <div>
-                <label htmlFor="email">Email <span className="required">*</span></label>
-                <input type="text" size="35" id="email" name="_replyto"  required/>
+                <label htmlFor="email">
+                  Email <span className="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  size="35"
+                  id="email"
+                  name="_replyto"
+                  required
+                />
               </div>
               <div>
                 <label htmlFor="subject">Subject</label>
-                <input type="text" size="35" id="subject" name="_subject"/>
+                <input type="text" size="35" id="subject" name="_subject" />
               </div>
               <div>
-                <label htmlFor="message">Message <span className="required">*</span></label>
-                <textarea cols="50" rows="15" id="message" name="contactMessage" required ></textarea>
+                <label htmlFor="message">
+                  Message <span className="required">*</span>
+                </label>
+                <textarea
+                  cols="50"
+                  rows="15"
+                  id="message"
+                  name="contactMessage"
+                  required
+                ></textarea>
               </div>
             </fieldset>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="submit">Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
-      </div>
-    </section>
+            {status === "SUCCESS" ? (
+              <p>Thanks!</p>
+            ) : (
+              <button className="submit">Submit</button>
+            )}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </div>
+      </section>
     );
   }
 

@@ -1,9 +1,9 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { updateResumeData } from './Actions/Data';
-import { resumeData } from './resumeData';
-import './App.scss';
+import React from "react";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { updateResumeData } from "./Actions/Data";
+import { resumeData } from "./resumeData";
+import "./App.scss";
 
 class App extends React.Component {
   componentDidMount() {
@@ -20,9 +20,12 @@ class App extends React.Component {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({
-    updateResumeData
-  }, dispatch)
+  return bindActionCreators(
+    {
+      updateResumeData,
+    },
+    dispatch
+  );
 }
 
 export default connect(null, mapDispatchToProps)(App);

@@ -1,13 +1,13 @@
-import React from 'react';
-import { Route, Switch } from 'react-router';
+import React from "react";
+import { Route, Switch } from "react-router";
 
 // PAGES
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Routes/About';
-import Resume from './Routes/Resume';
-import Contact from './Routes/Contact';
-import NotFound from './Components/NotFound';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Routes/About";
+import Resume from "./Routes/Resume";
+import Contact from "./Routes/Contact";
+import NotFound from "./Components/NotFound";
 
 export default (
   <React.Fragment>
